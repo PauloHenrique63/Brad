@@ -1,6 +1,4 @@
-/*.cabecalho{
-    background: linear-gradient(90deg, rgb(204, 9, 47) 40%, rgb(184, 21, 112) 90%);
-}*/
+
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 *{
     margin: 0;
@@ -63,6 +61,7 @@ body{
 
 }
 
+
 main{
     width:100%;
     height: calc(100vh - 75px);
@@ -70,10 +69,13 @@ main{
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background: linear-gradient(to right, #c10127 40%, #6a0dad), 
+                linear-gradient(to bottom left, rgba(0, 0, 0, 0.7), transparent);
+    color: #fff;
     padding: 10px;
     
 }
+
 .container{
     
     width: 100%;
@@ -88,56 +90,40 @@ main{
    font-size: 20px;
    
 }
-.texto h1 span{
-    color: ;
-}
+
 .texto h2{
     font-weight: lighter;
 }
 .capa img{
     width: 450px;
 }
-.btn-cadastrar{
-    text-align: center;
-    
-    font-size: medium;
-    width: 150px;
-    height: auto;
-    border: 2px solid #d87093;
+.nave{
+    margin-top: 15px;
+    display: flex;
+    width: max-content;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.pagina{
+    list-style:none;
+    display: flex;
+    gap: 10px;
+}
+.pagina .link-conheça{
+    border: 2px solid #fff;
     border-radius: 5px;
     padding: 5px;
     text-decoration: none;
-    color: #000;
-    background-color: white;
+    color: rgb(204, 9, 47);
+    background-color: #fff;
+
+}
+.pagina .link-conheça:hover{
+   background-color: rgb(240, 248, 248);
+    color: rgb(184, 21, 112); 
 
 }
 
 
-.btn-cadastrar a{
-    color: #000;
-    justify-content: center;
-    font-family: "Poppins",sans-serif;
-    text-decoration: none;
-}
-.btn-cadastrar:hover{
-    background-color: #d87093;
-}
-.btn-cadastrar a:hover{
-    color: white;
-}
 
-
-
-
-footer {
-    position: absolute;
-    font-family: "Open-Sans", sans-serif;
-    font-weight: 500;
-    width: 100%;
-    height: auto;
-    padding: 3px 100px;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
